@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/test-task-frontend-Reenbit">
+        <BrowserRouter basename="/frontend-react-typescript-Chat.Services">
           <App />
         </BrowserRouter>
       </PersistGate>
